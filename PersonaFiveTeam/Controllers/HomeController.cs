@@ -13,17 +13,37 @@ namespace PersonaFiveTeam.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Confidants()
         {
             ViewData["Message"] = "Your application description page.";
 
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Skills()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Your skills page.";
 
+            return View();
+        }
+        public IActionResult Mementos()
+        {
+            return View();
+        }
+        public IActionResult Questions()
+        {
+            return View();
+        }
+        public IActionResult Jobs()
+        {
+            return View();
+        }
+        public IActionResult Maps()
+        {
+            return View();
+        }
+        public IActionResult Team()
+        {
             return View();
         }
 
